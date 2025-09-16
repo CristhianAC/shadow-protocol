@@ -4,7 +4,13 @@ Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
-
+*.xcodeproj
+*.xcworkspace
+*.opensdf
+*.opendb
+*.sdf
+.vscode
+.vs
 # Ignorar archivos de compilación
 *.VC.db
 *.sln
