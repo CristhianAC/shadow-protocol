@@ -1,14 +1,24 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
+
+# Ignorar carpetas temporales
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignorar archivos de compilación
 *.VC.db
-*.opensdf
-*.opendb
-*.sdf
 *.sln
 *.suo
-*.xcodeproj
-*.xcworkspace
+*.opensdf
+*.sdf
+*.VC.opendb
+
+# Ignorar plugins del Engine (solo se versionan plugins locales del proyecto si los tienes)
+/Engine/
+/Plugins/
+
+# Ignorar archivos de usuario
+*.log
+*.user
+*.tlog
+
